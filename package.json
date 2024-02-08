@@ -1,0 +1,20 @@
+{
+  "name": "tunts.rocks-desafio-tecnico",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "nodemon -e ts,json,mustache src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@types/google-spreadsheet": "^4.0.0",
+    "google-spreadsheet": "^4.1.1"
+  }
+}
